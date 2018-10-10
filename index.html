@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Pre-employment - first page</title>
+ <link rel="stylesheet" type="text/css" href="./css/style.css">
+ </head>
+ 
+ <body>
+    <div>
+	  <header id="myHeader">
+	  <table width="100%"">
+         <colgroup>
+        <col width="25%">
+        <col width="25%">
+        <col width="25%">
+        <col width="5%">
+        <col width="20%">
+        </colgroup>
+         <tr>
+            <td >
+              <img src="./images/logo.png" width="85%" margin-bottom="5px" margin-left="5px" margin-top="5px">
+            </td>
+			<td float="right" colspan="2" >
+			   <ul>
+                <li><a class="selected" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+               </ul>
+			</td>
+			<td margin-left="25px" >
+			
+			
+              <img src="./images/person.jpg" width="60px" class="img-circle" margin-left="30px">
+			
+			
+			
+              <p>Hello,   X-lescu</p>
+			
+			</td>
+         </tr>
+	  </table>
+    </header>
+	<div class="content" id="bd">
+	 <h1><p>The brain’s hippocampi may be the film editors of our lives, slicing our continuous experiences into discrete cuts that can be stored away as memories. That’s the idea raised by a new study that analyzed brain scan data from people watching films such as “Forrest Gump.”
+
+“Research like this helps us identify ‘What is an event, from the point of view of the brain?’ ” says memory psychologist Gabriel Radvansky of the University of Notre Dame in Indiana.
+
+Many laboratory tests of memory involve taking in discrete, dull lists of information. “So much research is done with these little bits and pieces — words, pictures, things like that,” Radvansky says. But those dry tidbits aren’t what the human brain usually handles. “The mind is built to deal with complex events.”
+
+As a closer approximation to real life, researchers used brain imaging data collected earlier as part of a larger project: While undergoing a functional MRI, 15 people watched “Forrest Gump,” and 253 people watched Alfred Hitchcock’s television drama “Bang! You’re Dead.” A separate group of 16 observers watched each of the productions and pressed buttons to indicate when they thought one event ended and another began.
+
+With the data in hand, cognitive neuroscientists Aya Ben-Yakov and Rik Henson, both of the University of Cambridge, aligned participants’ brain activity with the transition points marked by the 16 observers. A brain structure called the hippocampus, known to be important for memory and navigation, seemed particularly active at these junctures, the team reports October 8 in the Journal of Neuroscience. When the researchers looked at hippocampus behavior over the entire shows, the brain structure was most active when the observers had indicated a shift from one event to another.
+
+That response “was actually quite striking,” Ben-Yakov says. “I wasn’t expecting it to be this strong and this clear.”
+
+These transitions didn’t always involve jumps to new places or times in the story. One such boundary came near the beginning of “Forrest Gump” as Forrest sits quietly on a bench. Suddenly, he blurts out his famous greeting: “Hello. My name’s Forrest. Forrest Gump.” The hippocampus may have helped slice that continuous bench scene into two events: before talking and after talking. Such divisions may help package information into discrete pieces that can then be stored as memories, the researchers suspect.
+
+Of course, films only approximate firsthand experiences, Ben-Yakov says. It’s not clear how the hippocampus behaves when people are personally involved in events. “Our goal is to understand real life,” she says.</p></h1>
+	</div>
+	</div>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var bd = document.getElementById("bd");
+
+
+bd.onscroll = function(e) {
+    if(bd.scrollY) {
+        
+            header.style.height = 50%;
+        }else {
+            header.style.height = 100%;
+        }
+    }
+}
+</script>
+ </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background: white;
+  font-size: 14px;
+}
+body div{
+  width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+header{
+  
+  padding: 10px 16px;
+  height: 100px;
+}
+header table{
+	height:50px;
+}
+header table tr td ul{
+	margin-left:200px;
+}
+header table tr td ul li{
+  display: inline;
+  
+  text-decoration: none;
+  color: #FF1493;
+  margin-left:80px;
+}
+header table tr td ul li a{
+	text-decoration: none;
+	color: ##FF1493;
+}
+header ul li a {
+	color: #FF1493;
+	font-weight: bold;
+	font-size: large;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  height:50% ;
+}
+.content {
+  padding: 16px;
+  background-color: white;
+  width: 1300px;
+  height: 500px;
+  overflow-y: scroll;
+}
